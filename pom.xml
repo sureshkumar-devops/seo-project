@@ -83,13 +83,13 @@
     <repository>
         <id>w3logics-server</id>
         <name>seo-releases</name>
-        <url>http://localhost:8082/artifactory/seo-local-release</url>
+        <url>http://localhost:8081/artifactory/seo-local-release</url>
     </repository>
 
-    <repository>
+    <snapshotrepository>
         <id>w3logics-server</id>
         <name>seo-snapshots</name>
-        <url>http://localhost:8082/artifactory/seo-local-snapshots/</url>
-    </repository>	
+        <url>http://localhost:8081/artifactory/seo-local-snapshots/</url>
+    </snapshotrepository>	
 </distributionManagement>
 </project>
