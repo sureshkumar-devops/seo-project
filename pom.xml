@@ -55,9 +55,9 @@
           <version>3.0.2</version>
         </plugin>
         <plugin>			
-			<artifactId>maven-war-plugin</artifactId>
-			<version>3.4.0</version>
-		</plugin>        
+	  <artifactId>maven-war-plugin</artifactId>
+	  <version>3.4.0</version>
+	</plugin>        
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
@@ -78,4 +78,18 @@
       </plugins>
     </pluginManagement>
   </build>
+	
+<distributionManagement>
+    <repository>
+        <id>w3logics-server</id>
+        <name>seo-releases</name>
+        <url>http://localhost:8082/artifactory/seo-local-release</url>
+    </repository>
+
+    <repository>
+        <id>w3logics-server</id>
+        <name>seo-snapshots</name>
+        <url>http://localhost:8082/artifactory/seo-local-snapshots/</url>
+    </repository>	
+</distributionManagement>
 </project>
