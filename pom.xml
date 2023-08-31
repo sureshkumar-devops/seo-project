@@ -81,15 +81,14 @@
 	
 <distributionManagement>
     <repository>
-        <id>w3logics-server</id>
-        <name>seo-releases</name>
+        <id>w3logicsrepo</id>
+        <name>seo-local-release</name>
         <url>http://localhost:8081/artifactory/seo-local-release</url>
     </repository>
-
-    <snapshotrepository>
-        <id>w3logics-server</id>
-        <name>seo-snapshots</name>
-        <url>http://localhost:8081/artifactory/seo-local-snapshots/</url>
-    </snapshotrepository>	
+    <snapshotRepository>
+        <id>w3logicsrepo</id>
+        <name>seo-local-snapshot</name>
+        <url>http://localhost:8081/artifactory/seo-local-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
